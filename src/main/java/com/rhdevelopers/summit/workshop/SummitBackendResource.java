@@ -70,7 +70,7 @@ public class SummitBackendResource {
 
     //Uncomment the Java method below to add an API endpoint to add your own data points.
     
-    /*
+    
     @POST
     @Path("poi/add/point")
     public Response loadCustomPoi(PoiRecord record) {
@@ -78,9 +78,9 @@ public class SummitBackendResource {
         return Response.created(
             UriBuilder.fromPath("fake/poi/find/"+(SUMMIT_POI_RECORDS.size()-1)).build()
         ).entity("inserted custom data point").build();
-    }
-    */
-
+    }    
+    
+    
     //How to use it:
     //The coordinates number array in the JSON snippet is specified [lat,lng] -> so latitude first, then longitude.
     //1. You can retrieve the GPS coordinates e.g. for your home town or some other city from here https://www.latlong.net/
